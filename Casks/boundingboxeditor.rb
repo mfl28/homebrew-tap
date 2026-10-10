@@ -1,6 +1,6 @@
 cask "boundingboxeditor" do
-  version "3.0.0"
-  sha256 "53513218cf1666801354836ba992b1694620feefeef0fa35b3d22368632a3c22"
+  version "3.1.0"
+  sha256 "16cddaf4dff1c3f653a1e2bb784cc1ea44e464c198b47ef8353d223d18379cf5"
 
   url "https://github.com/mfl28/BoundingBoxEditor/releases/download/v#{version}/boundingboxeditor-#{version}.dmg"
   name "Bounding Box Editor"
