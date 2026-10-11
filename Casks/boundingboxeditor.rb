@@ -2,9 +2,9 @@ cask "boundingboxeditor" do
   # The Apple Silicon disk image has no suffix, the Intel one "-intel".
   arch intel: "-intel"
 
-  version "3.1.0"
-  sha256 arm:   "16cddaf4dff1c3f653a1e2bb784cc1ea44e464c198b47ef8353d223d18379cf5",
-         intel: "851dab6281a40f765b3f7aee18ec75e71414be721d5f3d98223adfa9dd7eded2"
+  version "3.2.0"
+  sha256 arm:   "f809f1a0d1a3b6faf59bbf71f0c5fe3cb3940d68f6d9881f5691622bbcb2d227",
+         intel: "c64c4eac4aa291bfb55207c9b19e57e25f1abe2d916da148f43571740283cfac"
 
   url "https://github.com/mfl28/BoundingBoxEditor/releases/download/v#{version}/boundingboxeditor-#{version}#{arch}.dmg"
   name "Bounding Box Editor"
